@@ -7,14 +7,24 @@
 :root {
   --bg: #FAF7F4;
   --bg-card: #FFFCF9;
+  --bg-card-hover: #FFF8F2;
   --text: #1A1714;
   --text-muted: #4A4440;
   --text-light: #8A8480;
-  --accent: #B08060;
-  --accent-light: rgba(176, 128, 96, 0.12);
+  --accent: #C96090;
+  --accent-soft: #E090B8;
+  --accent-light: rgba(201, 96, 144, 0.09);
+  --accent-glow: rgba(201, 96, 144, 0.18);
   --border: rgba(26, 23, 20, 0.1);
+  --border-accent: rgba(201, 96, 144, 0.28);
+  --shadow-sm: 0 1px 6px rgba(26, 23, 20, 0.07);
+  --shadow: 0 3px 16px rgba(26, 23, 20, 0.1);
+  --shadow-hover: 0 10px 36px rgba(26, 23, 20, 0.14);
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'DM Sans', system-ui, sans-serif;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --radius-pill: 100px;
 }
 
 html {
@@ -34,4 +44,9 @@ a {
 button {
   cursor: pointer;
   font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--accent-glow);
+  color: var(--text);
 }
