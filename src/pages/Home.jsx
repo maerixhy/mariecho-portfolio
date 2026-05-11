@@ -294,7 +294,7 @@ export default function Home() {
             software development, and thinking through problems from both an engineering and business lens.
 
             Always trying to build cool stuff, learn fast, and work with people who care about what they’re 
-            making with enthusiasm for hard problems. Let’s chat!
+            making. Let’s chat!
             
           </p>
           <div style={s.linksRow}>
@@ -335,8 +335,8 @@ export default function Home() {
               I've built everything from OS kernels and compiler toolchains to full-stack web apps and
               ML pipelines — I care about understanding systems at a low level, not just using them.
               On the product side, I lead cross-functional teams, run user research, and ship roadmaps
-              that balance technical feasibility with real user impact. I like working on hard problems
-              where both worlds come together.
+              that balance technical feasibility with real user impact. I surround myself with work
+              where both worlds come together and with enthusiasm for hard problems.
             </p>
           </div>
           <div>
@@ -373,11 +373,15 @@ export default function Home() {
           <p style={s.skillsLabel}>Proof I'm not always on my keyboard</p>
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+            gridTemplateColumns: '1fr 1fr 1fr',
             gap: '0.75rem',
           }}>
-            {/* Drop your photos here — save them to public/ and add <img> tags like the examples below */}
-            {/* <img src="/fun1.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} /> */}
+            <img src="/fun1.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} />
+            <img src="/fun2.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} />
+            <img src="/fun3.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} />
+            <img src="/fun6.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} />
+            <img src="/fun4.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} />
+            <img src="/fun5.jpg" alt="" style={{ width: '100%', aspectRatio: '1', objectFit: 'cover', borderRadius: '12px' }} />
           </div>
         </div>
       </div>
