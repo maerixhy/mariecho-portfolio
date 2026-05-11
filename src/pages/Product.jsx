@@ -1,5 +1,23 @@
 const projects = [
   {
+    name: 'iDetect',
+    date: 'Spring 2026',
+    stack: ['Product Strategy', 'Figma', 'User Research', 'Agile/Scrum', 'Healthcare Tech'],
+    bullets: [
+      'Conducted 8 user interviews with nurses and clinicians to surface key workflow pain points, synthesizing findings into 3 core personas',
+      'Performed competitive analysis across 5 remote patient monitoring platforms, identifying differentiation opportunities in wound-specific AI detection',
+      'Authored a full PRD with 30+ user stories across imaging, patient tracking, provider alerts, and data export, aligning 14 cross-functional contributors',
+      'Collaborated closely with engineering and design to scope MVP, define Bluetooth VNA integration requirements, and validate HIPAA-compliant cloud storage architecture',
+    ],
+    metrics: [
+      { val: '8', label: 'User interviews' },
+      { val: '5', label: 'Competitors benchmarked' },
+      { val: '30+', label: 'User stories' },
+      { val: '14', label: 'Team members' },
+    ],
+    github: 'https://github.com/AshwinP10/LLS',
+  },
+  {
     name: 'UT Marketplace',
     date: 'Fall 2025 – Present',
     stack: ['Product Strategy', 'Agile/Scrum', 'Figma', 'Roadmapping', 'User Research'],
