@@ -242,6 +242,29 @@ export default function Product() {
           Problems I've <em style={s.titleAccent}>solved</em>
         </h2>
         <p style={s.sub}>Roadmaps, strategy, and products shipped end to end.</p>
+        <a
+          href="/resume-pm.pdf"
+          download
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            marginTop: '1rem',
+            fontSize: '13px',
+            fontWeight: 600,
+            color: 'var(--accent)',
+            border: '1.5px solid var(--border-accent)',
+            padding: '7px 18px',
+            borderRadius: 'var(--radius-pill)',
+            textDecoration: 'none',
+            background: 'transparent',
+            transition: 'background 0.15s',
+          }}
+          onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)' }}
+          onMouseLeave={e => { e.currentTarget.style.background = 'transparent' }}
+        >
+          PM Resume ↓
+        </a>
       </div>
       <div style={s.list}>
         {projects.map((p, i) => <ProjectCard key={i} p={p} />)}
