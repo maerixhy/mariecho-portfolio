@@ -244,7 +244,7 @@ export default function Product() {
         <p style={s.sub}>Roadmaps, strategy, and products shipped end to end.</p>
         <a
           href="/resume-pm.pdf"
-          download
+          download="marie_cho_resume_pm.pdf"
           style={{
             display: 'inline-flex',
             alignItems: 'center',

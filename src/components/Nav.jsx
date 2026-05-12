@@ -133,7 +133,7 @@ function ResumeDropdown() {
         <div style={s.dropdown}>
           <a
             href="/resume-swe.pdf"
-            download
+            download="marie_cho_resume_swe.pdf"
             style={s.dropdownItem}
             onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.color = 'var(--accent)' }}
             onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = 'var(--text-muted)' }}
@@ -143,7 +143,7 @@ function ResumeDropdown() {
           </a>
           <a
             href="/resume-pm.pdf"
-            download
+            download="marie_cho_resume_pm.pdf"
             style={s.dropdownItem}
             onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.color = 'var(--accent)' }}
             onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = 'var(--text-muted)' }}

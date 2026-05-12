@@ -270,7 +270,7 @@ export default function Engineering() {
         <p style={s.sub}>Systems, apps, and everything in between.</p>
         <a
           href="/resume-swe.pdf"
-          download
+          download="marie_cho_resume_swe.pdf"
           style={{
             display: 'inline-flex',
             alignItems: 'center',
