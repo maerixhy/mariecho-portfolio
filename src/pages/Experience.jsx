@@ -27,7 +27,7 @@ const work = [
     company: 'Kendra Scott',
     logo: { bg: '#fff', color: '#2D2D2D', text: 'KS', img: '/logos/kendrascott.png' },
     role: 'Technical Product Management Intern',
-    dates: 'September 2025 – Present',
+    dates: 'September 2025 – April 2026',
     location: 'Austin, TX',
     bullets: [
       'Directed a team of 7 to spearhead retail chatbot business transformation, identifying bottlenecks and defining a 12-week roadmap',
